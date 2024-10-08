@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','Public','MAINTENANCETASKSTEXT','en_US'" tableModifiedTimeStamp="2024-10-07T07:09:44.002Z">
+            <columns>
+                <column dataType="string" label="TASK ID" xref="TASK ID"/>
+                <column dataType="string" label="CATEGORY" xref="CATEGORY"/>
+                <column dataType="string" label="CONTRACT" xref="CONTRACT"/>
+                <column dataType="string" label="ASSET CODE" xref="ASSET CODE"/>
+                <column dataType="datetime" format="DATETIME19" label="DATE CREATED" xref="DATE CREATED"/>
+                <column dataType="string" label="DATE COMPLETED" xref="DATE COMPLETED"/>
+                <column dataType="string" label="TASK SHORT DESCRIPTION" xref="TASK SHORT DESCRIPTION"/>
+                <column dataType="string" label="TASK LONG DESCRIPTION" xref="TASK LONG DESCRIPTION"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds337" resourceIdentifier="'cas-shared-default','Public','FORECASTINGDATA.XLSX_ZUAD','en_US'" tableModifiedTimeStamp="2024-10-07T15:41:42.616Z">
+            <columns>
+                <column dataType="date" format="MONYY7" label="Date" xref="Date"/>
+                <column dataType="double" format="BEST12." label="Actual Values" xref="Actual Values"/>
+                <column dataType="double" format="BEST12." label="Predicted Values" xref="Predicted Values"/>
+                <column dataType="double" format="BEST12." label="Summer Break Flag" xref="Summer Break Flag"/>
+                <column dataType="double" format="BEST12." label="Winter Break Flag" xref="Winter Break Flag"/>
+                <column dataType="double" format="BEST12." label="Property Age" xref="Property Age"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds344" resourceIdentifier="'cas-shared-default','Public','FORECASTINGDATA.XLSX_PSUAD','en_US'" tableModifiedTimeStamp="2024-10-07T15:40:31.653Z">
+            <columns>
+                <column dataType="date" format="MONYY7" label="Date" xref="Date"/>
+                <column dataType="double" format="BEST12." label="Actual Values" xref="Actual Values"/>
+                <column dataType="double" format="BEST12." label="Predicted Values" xref="Predicted Values"/>
+                <column dataType="double" format="BEST12." label="Summer Break Flag" xref="Summer Break Flag"/>
+                <column dataType="double" format="BEST12." label="Winter Break Flag" xref="Winter Break Flag"/>
+                <column dataType="double" format="BEST12." label="Property Age" xref="Property Age"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds776" resourceIdentifier="'cas-shared-default','CASUSER','CBG_SHORT.XLSX_MAINTAIN','en_US'" tableModifiedTimeStamp="2024-10-07T15:37:56.572Z">
+            <columns>
+                <column dataType="string" label="TASK ID" xref="TASK ID"/>
+                <column dataType="string" label="CATEGORY" xref="CATEGORY"/>
+                <column dataType="string" label="CONTRACT" xref="CONTRACT"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds782" resourceIdentifier="'cas-shared-default','CASUSER','CBG_SHORT.XLSX_FORECASTING','en_US'" tableModifiedTimeStamp="2024-10-07T15:38:04.616Z">
+            <columns>
+                <column dataType="string" label="Site" xref="Site"/>
+                <column dataType="date" format="MONYY7" label="Time ID Values" xref="Time ID Values"/>
+                <column dataType="double" format="BEST12." label="Total_Requests" xref="Total_Requests"/>
+                <column dataType="double" format="F15." label="Predicted Values" xref="Predicted Values"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds862" resourceIdentifier="'cas-shared-default','CASUSER','CBG_SHORT (1).XLSX_VACANCY','en_US'" tableModifiedTimeStamp="2024-10-07T15:45:36.046Z">
+            <columns>
+                <column dataType="string" label="Site" xref="Site"/>
+                <column dataType="string" label="Vacancy" xref="Vacancy"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
